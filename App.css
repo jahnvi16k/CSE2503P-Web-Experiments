@@ -1,0 +1,29 @@
+* { box-sizing: border-box; }
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f4f8;
+  margin: 0;
+  color: #333;
+}
+.container { text-align: center; padding: 30px; }
+h1 { color: #333b79; margin-bottom: 30px; }
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card {
+  background-color: white;
+  padding: 25px;
+  width: 240px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+.card:hover { transform: translateY(-5px); }
+.card h2 { color: #4d5bd1; }
+.card p { color: #555; }
+.card h3 { color: green; }
+.message { text-align: center; padding: 40px; }
+.error { color: #b42318; }

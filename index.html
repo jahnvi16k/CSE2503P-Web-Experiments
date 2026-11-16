@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experiment 9 - JSON and Fetch API</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>JSON and Fetch REST API</h1>
+    <section>
+      <h2>JSON Example</h2>
+      <button onclick="showJSON()">Show JSON</button>
+      <pre id="jsonOutput"></pre>
+    </section>
+    <section>
+      <h2>Fetch API Data</h2>
+      <button onclick="fetchPosts()">Load Posts</button>
+      <p id="status" role="status"></p>
+      <div id="posts"></div>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
